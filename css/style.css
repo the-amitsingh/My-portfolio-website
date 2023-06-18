@@ -27,6 +27,7 @@ body {
   text-decoration: none;
   box-sizing: border-box;
   /* width: 100%; */
+  font-family: 'poppins ', sans-serifd;
 }
 ::before,
 ::after {
@@ -286,7 +287,7 @@ h3.my-profession {
   border-bottom: 10px solid var(--skin-color);
   border-right: 10px solid var(--skin-color);
   width: 70px;
-  right: 20px;
+  right: -20px;
   bottom: -40px;
 }
 
