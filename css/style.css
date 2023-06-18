@@ -601,26 +601,28 @@ h3.my-profession {
   display: block;
 }
 /* Contact */
+
 .contact-title
 {
   color: var(--skin-color);
   text-align: center;
-  font-size: 25px;
-  margin-bottom: 20px;
+  font-size: 30px;
+  margin-bottom: 50px;
 }
 .contact-sub-title
 {
   color: var(--text-black-900);
   text-align: center;
-  font-size: 15px;
+  font-size: 25px;
   /* margin-bottom: 20px; */
   margin-bottom: 60px;
 }
 .contact .contact-info-item
 {
-  flex: 0 0 25%;
+  flex: 0 0 50%;
   max-width: 25%;
   text-align: center;
+  justify-content: center;
   margin-bottom: 60px;
 }
 .contact .contact-info-item .icon
@@ -654,8 +656,8 @@ h3.my-profession {
   flex: 0 0 100%;
   max-width: 100%;
 
-}
-.contact .contact-form .col-6
+} 
+ .contact .contact-form .col-6
 {
   flex: 0 0 50%;
   max-width: 50%;
@@ -665,7 +667,7 @@ h3.my-profession {
   flex: 0 0 100%;
   max-width: 100%;
   /* display: flex; */
-  /* color: red; */
+  /* color: red;*/
 }
 .contact .contact-form .form-item
 {
@@ -693,11 +695,25 @@ h3.my-profession {
 .contact .contact-form .form-item textarea.form-control
 {
   height: 140px;
-}
-.contact .contact-form .btn
+} 
+.form 
 {
-  height: 50px;
+  height: 60px;
   padding: 0 50px;
+}
+input, textarea {
+  width: 100%;
+  box-sizing: border-box;
+  box-sizing: 300px;
+  font-size: 25px ;
+}
+.contact .label
+{
+  width: 100%;
+  box-sizing:content-box;
+  height: 250px;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 @media (max-width:1199px)
